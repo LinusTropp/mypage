@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #dbdbdb;
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 0px 5px 5px black;
+}
+h3 {
+  padding: 10px;
+  margin-left: auto;
+}
+footer.dark {
+  background-color: black;
+  color: white;
+}
+.button-dark {
+  background-color: #d2a3ff;
+  border: solid 4px rgb(49, 78, 80);
+  border-radius: 10px;
+  margin: 10px;
+  justify-self: flex-end;
+  transition: background-color 0.3s ease;
+}
+.button-dark:hover {
+  background-color: #c41d23;
+}
+.button-dark.dark {
+  background-color: rgb(62, 25, 96);
+  color: white;
+}
+.button-dark.dark:hover {
+  background-color: #c41d23;
+}
